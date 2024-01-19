@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+main{
+    height: 450px;
+}
+footer{
+    background-color: rgb(98, 126, 177);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.icons{
+    display: flex;
+    gap: 32px;
+}
+.con{
+    border-bottom: 1px solid white;
+}
+.Bon ul{
+    list-style: none;
+}
+svg :hover{
+    fill: red;
+    transition: 0.3s ease-in;
+}
+.Von{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+}
+.Son ul{
+    list-style: none;
+}
+.Son{
+    font-weight: bold;
+}
